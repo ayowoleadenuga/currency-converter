@@ -1,0 +1,48 @@
+body {
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  text-align: center;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+h1 {
+  margin: 0;
+  margin-bottom: .5rem;
+}
+main {
+  margin: 0 auto;
+}
+button {
+  width: 200px;
+  border-radius: 8px;
+  border: none;
+  padding: 1rem;
+  cursor: pointer;
+}
+.input {
+  border: 1px solid #333;
+  border-radius: 8px;
+  padding: .25rem;
+  width: 20em;
+}
+.result {
+  width: 20em;
+  height: 5em;
+  border: 1px solid black;
+  border-radius: 8px;
+  margin: 0 auto;
+}
+.error {
+  width: 100%;
+  padding: 1em;
+  background: red;
+  color: white;
+}
+
+.equals {
+  font-weight: bold;
+  font-size: 2rem;
+}
