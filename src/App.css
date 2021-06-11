@@ -7,6 +7,9 @@ body {
   text-align: center;
   font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
 }
+.header {
+  font-size: 50px;
+}
 
 h1 {
   margin: 0;

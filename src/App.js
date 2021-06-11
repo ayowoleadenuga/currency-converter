@@ -4,10 +4,8 @@ import Converter from './Components/Converter';
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <h1>
+      <header className="header">
           Currency Converter
-        </h1>
       </header>
       <br />
       <main>

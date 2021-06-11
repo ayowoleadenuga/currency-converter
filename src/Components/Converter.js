@@ -13,7 +13,6 @@ function Converter() {
   const [amount, setAmount] = useState(0)
   const [loading, setLoading] = useState(false)
   const [error, setError] = useState(null)
-    console.log(token)
   useEffect(() => {
     setError(null);
     fetchCurrencies()
@@ -62,7 +61,6 @@ const swapCurrencies = () => {
         setFromCurrency(toCurrency)
     }
 }
-console.log(error)
 
   return (
       <form>
