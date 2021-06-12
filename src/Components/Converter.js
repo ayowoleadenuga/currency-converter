@@ -3,7 +3,7 @@ import CustomSelect from './CustomSelect';
 import configData from "../config.json"
 
 const token = configData.ACCESS_TOKEN;
-const BASE_URL = `http://api.exchangeratesapi.io/v1/latest?access_key=${token}`
+const BASE_URL = `https://api.exchangeratesapi.io/v1/latest?access_key=${token}`
 
 function Converter() {
   const [currencyOptions, setCurrencyOptions] = useState([])
